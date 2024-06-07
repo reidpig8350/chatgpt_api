@@ -27,7 +27,7 @@ while True:
 
     # 發送對話歷史並獲取助手的回覆
     response = openai.chat.completions.create(
-        model="gpt-4",  # 使用標準的 GPT-4 模型
+        model="gpt-4o",  # 使用標準的 GPT-4 模型
         messages=conversation_history,
         temperature=0.7,
     )

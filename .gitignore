@@ -1,2 +1,6 @@
 # created by virtualenv automatically
 api_key.txt
+transcript.txt
+.DS_Store
+bin/
+lib/
